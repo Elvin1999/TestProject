@@ -22,10 +22,10 @@ jobs:
         dotnet-version: 8.0.x
     - name: Restore dependencies
       run: dotnet restore
-    - name: Install dotnet-format
-      run: dotnet tool install -g dotnet-format
-    - name: Run dotnet format
-      run: dotnet format
+    - name: Check format code
+      run: |
+        dotnet tool install -g dotnet-format
+        dotnet format --check || echo "Formatting issues found , please run 'dotnet format' locally"
     - name: Build
       run: dotnet build --no-restore
     - name: Test
