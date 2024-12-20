@@ -22,11 +22,11 @@ jobs:
         dotnet-version: 8.0.x
     - name: Restore dependencies
       run: dotnet restore
+    - name: Build
+      run: dotnet build --no-restore
     - name: Check format code
       run: |
         dotnet tool install --global dotnet-format
         dotnet format --verify-no-changes || (echo "Formatting issues found. Please run 'dotnet format' locally." && exit 1)
-    - name: Build
-      run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
