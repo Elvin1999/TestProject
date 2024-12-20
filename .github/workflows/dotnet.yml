@@ -25,7 +25,7 @@ jobs:
     - name: Check format code
       run: |
         dotnet tool install --global dotnet-format
-        dotnet format TestProject/Controllers/HomeController.cs --verify-no-changes || (echo "Formatting issues found. Please run 'dotnet format' locally." && exit 1)
+        dotnet format /TestProject/TestProject.csproj --include src/Controllers/ --verify-no-changes || (echo "Formatting issues found. Please run 'dotnet format' locally." && exit 1)
     - name: Build
       run: dotnet build --no-restore
     - name: Test
