@@ -8,6 +8,9 @@
 		<EditorConfigFiles Remove="C:\Users\camalzadeelvin\source\repos\TestProject\TestProject\.editorconfig" />
 	</ItemGroup>
 	<ItemGroup>
-		<None Include="C:\Users\camalzadeelvin\source\repos\TestProject\TestProject\.editorconfig" />
+	  <EditorConfigFiles Remove="C:\Users\camalzadeelvin\source\repos\TestProject\TestProject\.editorconfig" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Include="C:\Users\camalzadeelvin\source\repos\TestProject\TestProject\.editorconfig" />
 	</ItemGroup>
 </Project>
