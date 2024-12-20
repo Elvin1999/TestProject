@@ -5,15 +5,6 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
 	<ItemGroup>
-		<EditorConfigFiles Remove="C:\Users\camalzadeelvin\source\repos\TestProject\TestProject\.editorconfig" />
-	</ItemGroup>
-	<ItemGroup>
-		<EditorConfigFiles Remove="C:\Users\camalzadeelvin\source\repos\TestProject\TestProject\.editorconfig" />
-	</ItemGroup>
-	<ItemGroup>
-		<EditorConfigFiles Include="C:\Users\camalzadeelvin\source\repos\TestProject\TestProject\.editorconfig" />
-	</ItemGroup>
-	<ItemGroup>
 		<Folder Include="Models\" />
 	</ItemGroup>
 </Project>
