@@ -1,17 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
-
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <EditorConfigFiles Remove="C:\Users\camalzadeelvin\source\repos\TestProject\TestProject\.editorconfig" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="C:\Users\camalzadeelvin\source\repos\TestProject\TestProject\.editorconfig" />
-  </ItemGroup>
-
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+	<ItemGroup>
+		<EditorConfigFiles Remove="C:\Users\camalzadeelvin\source\repos\TestProject\TestProject\.editorconfig" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="C:\Users\camalzadeelvin\source\repos\TestProject\TestProject\.editorconfig" />
+	</ItemGroup>
 </Project>
